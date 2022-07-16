@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Smooch&display=swap');
+
+body{
+    background-color: antiquewhite;
+    
+  
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Oswald', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+   /* background-color: rgb(249, 237, 237);*/
+    color:pink;
+    cursor: pointer;
+  
+
+}
+nav ul li a{
+    padding: 0 110px;
+    text-decoration: none;
+}
+.brand img{
+    
+    width: 52px;
+    padding: 0 41px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('background3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   
+    
+
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+}
+.icons{
+    margin: 14px ;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogreesbar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 74px;
+
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    
+    width: 105%;
+    color:pink;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.timestamp i{
+
+    cursor: pointer;
+}
+.songs{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Oswald', sans-serif;
+}
+.songs img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    
+}
+.songlis, h1{
+  color: pink;
+}
